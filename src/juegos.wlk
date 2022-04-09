@@ -2,12 +2,12 @@ import consolas.*
 
 object arkanoid {
 	
-	method diversionQueOtorga(consola) = 50
+	method divercionQueOtorga(consola) {return 50}
 }
 
 object mario {
 	
-	method diversionQueOtorga(consola) {
+	method divercionQueOtorga(consola) {
 		if(consola.jugabilidad() > 5) {return 100}
 		else {return 15}
 	} 
@@ -15,7 +15,7 @@ object mario {
 
 object pokemon {
 	
-	method divercionQueOtoroga(consola) {
+	method divercionQueOtorga(consola) {
 		return consola.jugabilidad() * 10
 	}
 }
